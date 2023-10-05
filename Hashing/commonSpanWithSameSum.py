@@ -1,3 +1,4 @@
+#Longest common span with same sum in binary arrays
 # naive SOl
 def maxi(arr1, arr2):
     res = 0
@@ -25,6 +26,6 @@ def maxj(arr1, arr2):
     return maxlen
 
 
-arr1 = [1, 1, 1]
-arr2 = [1, 1, 1]
+arr1 = [1,0,0, 0, 1]
+arr2 = [1,1,1 , 1, 1]
 print(maxj(arr1, arr2))

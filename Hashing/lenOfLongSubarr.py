@@ -1,3 +1,4 @@
+#Longest subarray with given sum
 def lenOfLongSubarr(arr, k):
     n = len(arr)
     myDict = dict()
@@ -14,5 +15,5 @@ def lenOfLongSubarr(arr, k):
     return maxlen
 
 
-arr = [1,2,1,2,1]
-print(lenOfLongSubarr(arr, 3))
+arr = [5,-2, 2, 8, -4, -4,9,]
+print(lenOfLongSubarr(arr, 0))
