@@ -16,4 +16,4 @@ def MostRepeatedLetter(s):
                 res = min(i, res)
     return res
 
-print(MostRepeatedLetter('qwerty'))
+print(MostRepeatedLetter('easddasd'))

@@ -1,3 +1,4 @@
+#Count Distinct Elements In Every Window
 def printDistinct(arr, k):
     n = len(arr)
     for i in range(n-k+1):
@@ -32,7 +33,7 @@ def printDistinct2(arr, k):
             tempDict[arr[i]] = 1
         print(len(tempDict), end=" ")
 
-printDistinct2([1,2,3,4,5,6,7], 4)
+printDistinct2([1,2,2,1,3,4,1], 4)
 
 
 

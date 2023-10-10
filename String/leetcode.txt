@@ -1,3 +1,6 @@
 387. First Unique Character in a String
 242. Valid Anagram
 Maximum Occuring Character gfg(https://practice.geeksforgeeks.org/problems/maximum-occuring-character-1587115620/1)
+438. Find All Anagrams in a String
+28. Find the Index of the First Occurrence in a String(KMP)
+
