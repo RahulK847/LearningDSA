@@ -111,10 +111,10 @@ class LinkedList:
             return
 
         current = self.head
-        while current.next.next:
+        while current.next:
             current = current.next
 
-        current.next = None
+        current = None
 
     def delete_at_position(self, position):
         if position < 1:
